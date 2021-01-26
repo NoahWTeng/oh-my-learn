@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-api-hello-deployment
+  labels:
+    app: go-api-hello
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: go-api-hello
+  template:
+    metadata:
+      labels:
+        app: go-api-hello
+    spec:
+      containers:
+        - name: go-api-hello
+          image: noahwt/go-hello-api:latest
+          ports:
+            - containerPort: 8080

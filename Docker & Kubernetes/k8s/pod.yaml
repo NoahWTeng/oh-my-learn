@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: go-api-hello-pod
+  labels:
+    app: go-api-hello
+spec:
+  containers:
+    - name: go-api-hello
+      image: noahwt/go-hello-api:latest
+      ports:
+        - containerPort: 8080
