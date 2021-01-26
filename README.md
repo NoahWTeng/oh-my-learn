@@ -1,1 +1,1 @@
-# oh-my-go
+# oh-my-learn
