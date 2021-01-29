@@ -1,10 +1,10 @@
 1. Instalación en Windows
 
-------
+---
 
 ### 1.1 Descarga del paquete instalación de Go para Windows
 
-![go-download-windows-amd64](/home/jirohero/Desktop/Goland/Img/go-download-windows-amd64.png)
+![go-download-windows-amd64]()
 
 ### 1.2 Instalación
 
@@ -25,11 +25,10 @@ $ go version
 go version go1.15.6 windows/amd64
 ```
 
-### 1.4  Compruebe si la ruta Go está configurado correctamente
+### 1.4 Compruebe si la ruta Go está configurado correctamente
 
-![open-advanced-system-settings-1024x409](/home/jirohero/Desktop/Goland/Img/open-advanced-system-settings-1024x409.png)
+![open-advanced-system-settings-1024x409]()
 
-![advanced-system-settings](/home/jirohero/Desktop/Goland/Img/advanced-system-settings.png)
+![advanced-system-settings]()
 
-![gopath-is-set](/home/jirohero/Desktop/Goland/Img/gopath-is-set.png)
-
+![gopath-is-set]()
